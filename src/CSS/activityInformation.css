@@ -1,0 +1,16 @@
+.activityInformation--title{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.circul{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
