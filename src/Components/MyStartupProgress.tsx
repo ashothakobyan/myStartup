@@ -4,7 +4,7 @@ import '../CSS/myStartupProgress.css'
 import ActivityInformation from "./ActivityInformation";
 import {data, IData} from  "./FackData"
 import { v4 as uuidv4 } from 'uuid';
-import { useDispatch } from "react-redux";
+import { RootStateOrAny, useDispatch, useSelector } from "react-redux";
 import { allChakedArr } from "../Redux/slice";
 
 function MyStartupProgress() {
@@ -27,6 +27,7 @@ function MyStartupProgress() {
     })
     dispatch(allChakedArr(state))
   },[])
+
   
   
   return (

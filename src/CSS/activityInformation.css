@@ -14,3 +14,13 @@
     justify-content: center;
     align-items: center;
 }
+.checkedIcon{
+    height: 20px;
+    width: 20px;
+}
+.activ{
+    display: block ;
+}
+.none{
+    display: none;
+}
